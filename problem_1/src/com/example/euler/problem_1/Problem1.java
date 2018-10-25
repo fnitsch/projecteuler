@@ -1,0 +1,25 @@
+package com.example.euler.problem_1;
+
+/**
+ * Created by Fabian.Nitsch on 1/20/2018
+ */
+
+public class Problem1 {
+    public static void main(String[] args) {
+
+        int sum = 0;
+
+        for (int i = 0; i < 1000; i++) {
+
+            if (i%3 == 0 || i%5 == 0) {
+
+                sum += i;
+
+                System.out.println("sum = [" + sum + "]");
+
+            }
+
+        }
+
+    }
+}
