@@ -1,7 +1,5 @@
 package com.example.euler.problem_3;
 
-import java.math.BigInteger;
-
 /**
  * Created by Fabian.Nitsch on 1/20/2018
  */
