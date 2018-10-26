@@ -21,7 +21,7 @@ public class Problem3 {
                 primeFactorization(n / i);
                 return;
 
-            } else if (n % i == 0 && n == i){
+            } else if (n % i == 0 && n == i) {
                 System.out.println(i);
 
             }
